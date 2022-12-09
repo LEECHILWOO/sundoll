@@ -1,0 +1,27 @@
+@font-face { font-family: 'NanumGothic';
+    src: url('/fonts/NanumGothic.eot');
+    src: url('/fonts/NanumGothic.eot') format('embedded-opentype'),
+    url('/fonts/NanumGothic.woff') format('woff');}
+
+html,body{margin:0;padding:0}
+body {font-family: 'NanumGothic', 'serif';text-align:center}
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+div#header{background-color:#0f1b4a;}
+div#header h1{color:#ffff99;height:70px;line-height:80px;margin:0;padding-left:30px;}
+div#header h3{color:#aaaa99;height:30px;line-height:0px;margin:0;padding-left:50px;}
+div#container{text-align:left;color: green;}
+div#content_h3{color:#18038b;height:30px;line-height:0px;margin:0;padding-left:50px;}
+div#content p{line-height:1.4}
+div#navigation{background:#F6F0E0;}
+div#navigation ul{margin:15px 0; padding:0; list-style-type:none;padding-left:30px;}
+div#navigation li{margin-bottom:5px;}
+div#bodyContents ul{margin:18px 0; padding:0; list-style-type:none;padding-left:40px;}
+div#bodyContents li{margin-bottom:7px; }
+div#extra{background:#CCC8B3;}
+div#footer{background:#BFBD93;}
+div#footer p{margin:0;padding:5px 10px}
+div#container{width:97%;margin:0 auto}
+div#content{float:left;width:500px}
+div#navigation{float:right;width:200px}
+div#extra{clear:both;width:100%}
